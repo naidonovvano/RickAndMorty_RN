@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "app_1",
-    "slug": "app_1",
+    "name": "The Rick&Morty Database",
+    "slug": "thermdb",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LogoRick.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rm-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thermdb"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/LogoRick.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thermdb"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/rick-sanchez.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fde859f-dcf9-4e51-89a8-8fe949912dac"
+      }
     }
   }
 }
