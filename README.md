@@ -17,7 +17,7 @@ The application will be useful for those who simply love this animated series an
 
 To run this application, you need to have the EXPO app on your device. To download it, visit the App Store or Google Play. After installing EXPO scan the QR code available at [main](https://expo.dev/@naidonovvano/thermdb) link.
 
-To install `The Rick&Morty cartoon database`, follow these steps:
+To install __The Rick&Morty cartoon database__, follow these steps:
 
 * Download this repository
 * Open the folder in your IDE and install the necessary packages using 
