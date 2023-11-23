@@ -1,6 +1,6 @@
 # The Rick&Morty cartoon database (mobile)
 
-short database, based on https://rickandmortyapi.com/ API. Using React Native framework and Expo Cli.
+Based on https://rickandmortyapi.com/ API. Using React Native framework and Expo Cli.
 
 https://expo.dev/@naidonovvano/thermdb
 
