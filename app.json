@@ -32,6 +32,13 @@
       "eas": {
         "projectId": "7fde859f-dcf9-4e51-89a8-8fe949912dac"
       }
+    },
+    "owner": "naidonovvano",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7fde859f-dcf9-4e51-89a8-8fe949912dac"
     }
   }
 }

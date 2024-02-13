@@ -1,20 +1,20 @@
 {
   "cli": {
-    "version": ">= 3.10.2"
+    "version": ">= 7.2.0"
   },
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "simulator": true
-      },
-      "android": {
-        "buildType": "apk"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      }
     },
     "preview2": {
       "android": {
@@ -23,6 +23,9 @@
     },
     "preview3": {
       "developmentClient": true
+    },
+    "preview4": {
+      "distribution": "internal"
     },
     "production": {}
   },
